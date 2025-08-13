@@ -8,8 +8,8 @@ function Profile(){
   return (
     <div>
       <h1>Profile</h1>
-      <h2>{user.username}</h2>
-      <h2>{user.password}</h2>
+      <h2>{user.name}</h2>
+      <h2>{user.phone}</h2>
     </div>
   )
 }
